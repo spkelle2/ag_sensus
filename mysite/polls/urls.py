@@ -3,6 +3,7 @@ from django.conf.urls import url
 # from current directory import views
 from . import views # import from the current package/directory
 
+app_name = 'polls'
 urlpatterns = [
     # example: /polls/
     url(r'^$', views.index, name='index'),
