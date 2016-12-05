@@ -1,0 +1,8 @@
+{% load static %}
+<img src="{% static 'waldo/images/puzzle.jpg' %}" width="1200" height="750"
+alt="puzzle" usemap="#Waldo">
+
+<map name="Waldo">
+        <area shape="rect" coords="200,325,250,375," href="{% url 'waldo:thanks' %}"
+        alt="alttext">
+</map>
